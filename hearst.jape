@@ -37,7 +37,7 @@ Macro:NounPhrase
 
 Macro:Hypernym
 (
-	(Noun)
+	({Token.category=="NNS"}|{Token.category=="NN"})
 	(
 		{SpaceToken.kind==space}
 		(NounPhrase)
