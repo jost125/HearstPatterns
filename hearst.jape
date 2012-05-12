@@ -1,0 +1,43 @@
+Phase:Hearst
+Input:Token SpaceToken
+
+Macro:NounPhrase1
+(
+	({Token.category=="NNS"}|{Token.category=="NN"})
+)
+
+Macro:NounPhrasesAlternatives
+(
+	(NounPhrase1)
+	(
+		({SpaceToken.kind==space})?
+		{Token.kind==punctuation}
+		({SpaceToken.kind==space})?
+		(NounPhrase1)
+		
+	)*
+	(
+		{SpaceToken.kind==space}
+		({Token.string=="or"}|{Token.string=="and"})
+		{SpaceToken.kind==space}
+		(NounPhrase1)
+	)?
+)
+
+Rule:Hearst1
+(
+	(NounPhrase1):superconcept
+	{SpaceToken.kind==space}
+	{Token.string=="such"}
+	{SpaceToken.kind==space}
+	{Token.string=="as"}
+	{SpaceToken.kind==space}
+
+	(NounPhrasesAlternatives):subconcept
+):hearst1
+-->
+
+:hearst1.SubclassOfRelation={rule="Hearst1"},
+:subconcept.Domain={rule="Hearst1"},
+:superconcept.Range={rule="Hearst1"}
+
