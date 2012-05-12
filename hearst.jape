@@ -1,43 +1,75 @@
 Phase:Hearst
 Input:Token SpaceToken
+Options: control = appelt
 
-Macro:NounPhrase1
+Macro:Noun
 (
-	({Token.category=="NNS"}|{Token.category=="NN"})
+	({Token.category=="NNS"}|{Token.category=="NN"}|{Token.category=="CD"})
+)
+
+Macro:NounPhraseWithAdjective
+(
+	(
+		({Token.category=="JJ"}|{Token.category=="NNP"}|{Token.category=="NNPS"})
+		{SpaceToken.kind==space}
+	)*
+	(Noun)
+)
+
+Macro:NounPhrase
+(
+	(
+		(
+			{Token.category=="DT"}
+			{SpaceToken.kind==space}
+		)?
+		(NounPhraseWithAdjective)
+	)
+	(
+		{SpaceToken.kind==space}
+		(
+			{Token.category=="DT"}
+			{SpaceToken.kind==space}
+		)?
+		(NounPhraseWithAdjective)
+	)*
 )
 
 Macro:NounPhrasesAlternatives
 (
-	(NounPhrase1)
+	(NounPhrase)
 	(
 		({SpaceToken.kind==space})?
 		{Token.kind==punctuation}
 		({SpaceToken.kind==space})?
-		(NounPhrase1)
+		(NounPhrase)
 		
 	)*
 	(
 		{SpaceToken.kind==space}
 		({Token.string=="or"}|{Token.string=="and"})
 		{SpaceToken.kind==space}
-		(NounPhrase1)
+		(NounPhrase)
 	)?
 )
 
 Rule:Hearst1
 (
-	(NounPhrase1):superconcept
+	(NounPhrase):hypernym
+	(
+		({SpaceToken.kind==space})?
+		{Token.kind==punctuation}
+	)?
 	{SpaceToken.kind==space}
-	{Token.string=="such"}
+	{Token.string==~"[Ss]uch"}
 	{SpaceToken.kind==space}
-	{Token.string=="as"}
+	{Token.string==~"[Aa]s"}
 	{SpaceToken.kind==space}
 
-	(NounPhrasesAlternatives):subconcept
+	(NounPhrasesAlternatives):hyponym
 ):hearst1
 -->
-
-:hearst1.SubclassOfRelation={rule="Hearst1"},
-:subconcept.Domain={rule="Hearst1"},
-:superconcept.Range={rule="Hearst1"}
+:hearst1.Hearst={rule="Hearst1"},
+:hyponym.Hyponym={rule="Hearst1"},
+:hypernym.Hypernym={rule="Hearst1"}
 
