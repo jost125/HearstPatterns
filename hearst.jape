@@ -111,3 +111,25 @@ Rule:Hearst3
 :hearst3.Hearst={rule="Hearst3"},
 :hyponym.Hyponym={rule="Hearst3"},
 :hypernym.Hypernym={rule="Hearst3"}
+
+Rule:Hearst4
+(
+	(
+		(NounPhrase)
+		({Token.kind==punctuation})?
+	):hypernym
+
+	{SpaceToken.kind==space}
+	({Token.string=="including"}|{Token.string=="especially"})
+	{SpaceToken.kind==space}
+	
+	(
+		(NounPhrase)
+		(PunctationNounPhrase)*
+		(AndOrNounPhrase)?
+	):hyponym
+):hearst4
+-->
+:hearst4.Hearst={rule="Hearst4"},
+:hyponym.Hyponym={rule="Hearst4"},
+:hypernym.Hypernym={rule="Hearst4"}
