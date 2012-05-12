@@ -4,7 +4,7 @@ Options: control = appelt
 
 Macro:Noun
 (
-	({Token.category=="NNS"}|{Token.category=="NN"}|{Token.category=="JJ"}|{Token.category=="NNP"}|{Token.category=="NNPS"})
+	({Token.category=="NNS"}|{Token.category=="NN"}|{Token.category=="JJ"}|{Token.category=="NNP"}|{Token.category=="NNPS"}|{Token.category=="VBG"})
 )
 
 Macro:SingleNounPhrase
@@ -23,7 +23,7 @@ Macro:NounPhrase
 			{Token.category=="DT"}
 			{SpaceToken.kind==space}
 		)?
-		(Noun)
+		(SingleNounPhrase)
 	)
 	(
 		{SpaceToken.kind==space}
@@ -33,6 +33,15 @@ Macro:NounPhrase
 		)?
 		(SingleNounPhrase)
 	)*
+)
+
+Macro:Hypernym
+(
+	(Noun)
+	(
+		{SpaceToken.kind==space}
+		(NounPhrase)
+	)?
 )
 
 Macro:AndOrNounPhrase
@@ -60,7 +69,7 @@ Macro:NounPhrasesAlternatives
 
 Rule:Hearst1
 (
-	(NounPhrase):hypernym
+	(Hypernym):hypernym
 	(
 		({SpaceToken.kind==space})?
 		{Token.kind==punctuation}
@@ -81,7 +90,7 @@ Rule:Hearst2
 (
 	{Token.string==~"[Ss]uch"}
 	{SpaceToken.kind==space}
-	(NounPhrase):hypernym
+	(Hypernym):hypernym
 	{SpaceToken.kind==space}
 	{Token.string=="as"}
 	{SpaceToken.kind==space}
@@ -105,7 +114,7 @@ Rule:Hearst3
 	{SpaceToken.kind==space}
 	{Token.string=="other"}
 	{SpaceToken.kind==space}
-	(NounPhrase):hypernym
+	(Hypernym):hypernym
 ):hearst3
 -->
 :hearst3.Hearst={rule="Hearst3"},
@@ -115,7 +124,7 @@ Rule:Hearst3
 Rule:Hearst4
 (
 	(
-		(NounPhrase)
+		(Hypernym)
 		({Token.kind==punctuation})?
 	):hypernym
 
