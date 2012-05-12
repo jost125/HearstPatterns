@@ -1,0 +1,51 @@
+Imports: {
+import static gate.Utils.*;
+}
+
+Phase:Populating
+Input: Hearst
+Options: control = appelt
+
+Rule: Hearst
+(
+	({Hearst})
+):hearst
+-->
+{
+	// Getting annotations
+	AnnotationSet hearstAS = (AnnotationSet)bindings.get("hearst");
+	AnnotationSet hypernymAS = inputAS.get("Hypernym", hearstAS.firstNode().getOffset(), hearstAS.lastNode().getOffset());
+	AnnotationSet hyponymAS = inputAS.get("Hyponym", hearstAS.firstNode().getOffset(), hearstAS.lastNode().getOffset());
+	
+	// Getting anotation string representations
+	String hypernym = stringFor(doc, hypernymAS.iterator().next()).replaceAll("(^\\s)|((\\s|,)$)", "");
+	hypernym = hypernym.replaceAll("\\s", "-");
+	String hyponym = stringFor(doc, hyponymAS.iterator().next());
+	Set<String> hyponyms = new HashSet<String>(Arrays.asList(hyponym.split("(\\sand\\s|\\sor\\s|\\s?,\\s?)")));
+	
+	// Building ontology
+	OClass topClass = ontology.getOClass(ontology.createOURI("http://gate.ac.uk/owlim#root"));
+	
+	System.out.println(hypernym);
+	
+	// Creating hypernym class.
+	OClass hypernymClass = null;
+	OURI hypernymUri = ontology.createOURI("http://gate.ac.uk/owlim#" + hypernym);
+	if (!ontology.containsOClass(hypernymUri)) {
+		hypernymClass = ontology.addOClass(hypernymUri);
+		topClass.addSubClass(hypernymClass);
+	} else {
+		hypernymClass = ontology.getOClass(hypernymUri);
+	}
+	
+	// Creating hyponym classes.
+	for (String hyponymItem : hyponyms) {
+		hyponymItem = hyponymItem.replaceAll("\\s", "-");
+		OURI hyponymUri = ontology.createOURI("http://gate.ac.uk/owlim#" + hyponymItem);
+		if (!ontology.containsOClass(hyponymUri)) {
+			OClass hyponymClass = ontology.addOClass(hyponymUri);
+			hypernymClass.addSubClass(hyponymClass);
+		}
+	}
+}
+
