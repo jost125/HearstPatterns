@@ -72,3 +72,40 @@ Rule:Hearst1
 :hyponym.Hyponym={rule="Hearst1"},
 :hypernym.Hypernym={rule="Hearst1"}
 
+Rule:Hearst2
+(
+	{Token.string==~"[Ss]uch"}
+	{SpaceToken.kind==space}
+	(NounPhrase):hypernym
+	{SpaceToken.kind==space}
+	{Token.string=="as"}
+	{SpaceToken.kind==space}
+	(NounPhrasesAlternatives):hyponym
+):hearst2
+-->
+:hearst2.Hearst={rule="Hearst2"},
+:hyponym.Hyponym={rule="Hearst2"},
+:hypernym.Hypernym={rule="Hearst2"}
+
+Rule:Hearst3
+(
+	(
+		(NounPhrase)
+		(
+			{Token.kind==punctuation}
+			(NounPhrase)
+		)*
+		({Token.kind==punctuation})?
+	):hyponym
+
+	{SpaceToken.kind==space}
+	({Token.string=="and"}|{Token.string=="or"})
+	{SpaceToken.kind==space}
+	{Token.string=="other"}
+	{SpaceToken.kind==space}
+	(NounPhrase):hypernym
+):hearst3
+-->
+:hearst3.Hearst={rule="Hearst3"},
+:hyponym.Hyponym={rule="Hearst3"},
+:hypernym.Hypernym={rule="Hearst3"}
