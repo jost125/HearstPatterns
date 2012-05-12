@@ -4,13 +4,13 @@ Options: control = appelt
 
 Macro:Noun
 (
-	({Token.category=="NNS"}|{Token.category=="NN"})
+	({Token.category=="NNS"}|{Token.category=="NN"}|{Token.category=="JJ"}|{Token.category=="NNP"}|{Token.category=="NNPS"})
 )
 
 Macro:SingleNounPhrase
 (
 	(
-		({Token.category=="JJ"}|{Token.category=="NNP"}|{Token.category=="NNPS"}|{Token.category=="IN"}|{Token.category=="VBG"})
+		({Token.category=="IN"}|(Noun))
 		{SpaceToken.kind==space}
 	)*
 	(Noun)
@@ -23,7 +23,7 @@ Macro:NounPhrase
 			{Token.category=="DT"}
 			{SpaceToken.kind==space}
 		)?
-		(SingleNounPhrase)
+		(Noun)
 	)
 	(
 		{SpaceToken.kind==space}
@@ -35,22 +35,27 @@ Macro:NounPhrase
 	)*
 )
 
+Macro:AndOrNounPhrase
+(
+	{SpaceToken.kind==space}
+	({Token.string=="or"}|{Token.string=="and"})
+	{SpaceToken.kind==space}
+	(NounPhrase)
+)
+
+Macro:PunctationNounPhrase
+(
+	({SpaceToken.kind==space})?
+	{Token.kind==punctuation}
+	({SpaceToken.kind==space})?
+	(NounPhrase)
+)
+
 Macro:NounPhrasesAlternatives
 (
 	(NounPhrase)
-	(
-		({SpaceToken.kind==space})?
-		{Token.kind==punctuation}
-		({SpaceToken.kind==space})?
-		(NounPhrase)
-		
-	)*
-	(
-		{SpaceToken.kind==space}
-		({Token.string=="or"}|{Token.string=="and"})
-		{SpaceToken.kind==space}
-		(NounPhrase)
-	)?
+	(PunctationNounPhrase)*
+	(AndOrNounPhrase)?
 )
 
 Rule:Hearst1
@@ -91,10 +96,7 @@ Rule:Hearst3
 (
 	(
 		(NounPhrase)
-		(
-			{Token.kind==punctuation}
-			(NounPhrase)
-		)*
+		(PunctationNounPhrase)*
 		({Token.kind==punctuation})?
 	):hyponym
 
