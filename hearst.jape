@@ -4,13 +4,13 @@ Options: control = appelt
 
 Macro:Noun
 (
-	({Token.category=="NNS"}|{Token.category=="NN"}|{Token.category=="CD"})
+	({Token.category=="NNS"}|{Token.category=="NN"})
 )
 
-Macro:NounPhraseWithAdjective
+Macro:SingleNounPhrase
 (
 	(
-		({Token.category=="JJ"}|{Token.category=="NNP"}|{Token.category=="NNPS"})
+		({Token.category=="JJ"}|{Token.category=="NNP"}|{Token.category=="NNPS"}|{Token.category=="IN"}|{Token.category=="VBG"})
 		{SpaceToken.kind==space}
 	)*
 	(Noun)
@@ -23,7 +23,7 @@ Macro:NounPhrase
 			{Token.category=="DT"}
 			{SpaceToken.kind==space}
 		)?
-		(NounPhraseWithAdjective)
+		(SingleNounPhrase)
 	)
 	(
 		{SpaceToken.kind==space}
@@ -31,7 +31,7 @@ Macro:NounPhrase
 			{Token.category=="DT"}
 			{SpaceToken.kind==space}
 		)?
-		(NounPhraseWithAdjective)
+		(SingleNounPhrase)
 	)*
 )
 
@@ -61,11 +61,10 @@ Rule:Hearst1
 		{Token.kind==punctuation}
 	)?
 	{SpaceToken.kind==space}
-	{Token.string==~"[Ss]uch"}
+	{Token.string=="such"}
 	{SpaceToken.kind==space}
-	{Token.string==~"[Aa]s"}
+	{Token.string=="as"}
 	{SpaceToken.kind==space}
-
 	(NounPhrasesAlternatives):hyponym
 ):hearst1
 -->
