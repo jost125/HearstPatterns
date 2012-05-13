@@ -1,0 +1,2919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://gate.ac.uk/owlim#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:psys="http://proton.semanticweb.org/protonsys#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:pext="http://proton.semanticweb.org/protonext#">
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#gray-squirrels">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#white-footed-mice">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#blue-jays">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#white-tailed-deer">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#a-variety-of-habitats-for-many-creatures">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#maple">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-mix-of-oak">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#birch">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#fuchsias">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#tomatoes">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#greenhouse-plants">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#tender-perennials">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#tropicals">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#oak">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#trees">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#old-dune-ridges">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#dunes">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#scheffleras">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#ornamental-figs">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#rubber-trees">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#flowering-cherry">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#lilac">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#deciduous-woody-plants">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#bananas">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#tree-ferns">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#subtropical-plants">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#monkshood">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#flowers">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#cordylines">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#phormiums">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#many-plants">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-arms-trade">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#global-military-expenditures">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-appropriate-reduction-of-excessive-military-expenditures">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#fiscal-incentives">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#equitable-taxation">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#monetary-policies">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-provisions-emanating-from-the-marrakesh-agreements">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#academic-research">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#health-care">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#canadian-expats-in-certain-sectors-facing-significant-shortages">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#many-vacancies-for-senior-roles-in-countries">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#spain">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#g-20-countries">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-us">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-uk">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#russia">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#south-africa">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#brazil">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-countries">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#new-york">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#international-financial-centers">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#social-support">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#socioeconomic-status">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#social-factors">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#cholesterol-level">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#exercise">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-like">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#diet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#proximal-causes-of-disease">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#leptospirosis">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#acute-respiratory-infections">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#diarrheal-diseases">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#viral-hepatitis">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#meningitis">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#dengue-fever">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#typhoid-fever">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-following-infectious-diseases">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#earthquakes">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#floods">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#tropical-cyclones">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#tsunamis">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#natural-disasters">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#looking-at-infectious-diseases">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#hepatitis-c-infections">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#many-causes">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#herpes-simplex-virus">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#leishmania">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#hepatitis-c">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#hepatitis-b">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#liver-infections">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#influenza">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#hepatitis">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#malaria">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#tuberculosis">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#hiv/aids">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#great-advances-in-the-control-of-infectious-diseases">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#stomach">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#those-affecting-the-liver">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#lymph-glands">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#cancers">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#horses">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#animals-undernourished">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#mountain-lions">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#cheetahs">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#many-types-of-big-cats">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#primates">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#some-animals">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#leopards">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#macaque-monkeys">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#grizzly">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#animals">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#dog">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#talking-about-your-normal-everyday-house-cat">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#pet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#caution-exotic-animals-for-motorists">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#electronic-warning-signs">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#six-black-bears">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-tigers">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#two-grizzlies">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#17-lions">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#48-of-the-56-animals">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#18">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#48-of-the-wild-beasts">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#tigers">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#lions">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#bears">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#rare-bengal-tigers">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#dozens-of-exotic-animals">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#congo">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#cameroon">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#democratic-republic-of-the-congo">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#cote-de-ivoire">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#chad">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#guinea">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#mozambique">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#sudan">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#uganda">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#angola">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#central-african-republic">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#leishmaniasis">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#filariasis">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#dengue">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#onchocerciasis">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#mosquitoes">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#flying-insects">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#infants">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#children">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#malaria-risk-areas-in-tanzania">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#deaths">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#serious-heart-related-side-effects">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#measles">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#childhood-diseases">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#anti-malaria-drugs">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#vaccines">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#medications">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#your-health">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#immunization-history">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#depending-on-factors">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#medications-for-vaccine-preventable-diseases">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#diseases">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#zanzibar">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#tanzania">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#india">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#china">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#increasing-demand-for-grain-fed-animal-products-from-the-growing-middle-classes-of-countries">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#dairy-cows">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#cattle">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#sir-albert-howard">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#proponents-of-organic-farming">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#corn-(maize">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-production-of-certain-commodities">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-green-revolution">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#technologies">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#rice">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#wheat">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#high-yield-varieties-of-common-staple-grains">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-haber-">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#technological-improvements-in-agricultural-techniques">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#agriculture">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-percent-of-the-human-population-working-in-primary-sector-activities">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#resins.-biofuels">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-health-effects-of-the-antibiotics">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#growth-hormones">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#chemicals">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#intensive-pig-farming">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#modern-practices-in-animal-husbandry">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#fiber">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#products">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-cultivation-of-animals">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#plants">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#fungi">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#life-forms-for-food">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-introduction-of-golf-courses-in-arid-areas-(such-as-the-mediterranean-coast-in-spain">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#projects">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#petrol">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#a-resource">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#bolivia">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#iraq">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#countries">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#bechtel.-the-company">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#multinationals">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#following-the-deforestation-of-much-of-northeastern-american">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#1800">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#forested-parts-of-the-world">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-cooling-period-in-the-1950">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-variations">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#human-records">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#tree-rings">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#corals">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#many-sources">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#bird-flu">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#mad-cow-disease">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-transference-of-harmful-diseases">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#changes-in-the-ratios-of-different-carbon-isotopes-in-atmospheric-co">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#due-other-evidence">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#carbon-dioxide-emissions-from-burning-fossil-fuels">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#effect-of-greenhouse-gases">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#termites">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#conditions">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#ostriches">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#dogs">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#carved-animal-figures">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#a-tendency-towards-stylization-–">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#common-stylistic-characteristics">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#millet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#goat-blood">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#chicken">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#thick-layers-of-earth-impregnated-with-sacrificial-materials">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#large-conical-breasts">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#measure-between-4">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#geometric-features">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#gianni-baiocchi-in-rome">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#jean-pigozzi">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#artur-walther">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#collectors">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#pablo-picasso">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#henri-matisse">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#amedeo-modigliani">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#totemic-artists">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#paint-on-canvas">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#charcoal-on-canvas">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-continent">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#stone">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#wood">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#bronze">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#clay">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#various-materials">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#paintings">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#jewelry">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#weapons">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#masks">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#textiles">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#sculptures">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#many-forms">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#haematite">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#coconut-shell">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#beads">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#sisal">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#tiger's-eye-stone">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#ebony-wood">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#diverse-materials">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#african-cultures">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#visual-culture-in-african-art">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-notion">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#a-movement-among-african-art-historians">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#scholars">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-diamonds-at-different-scales-in-the-kasai-pattern-at-right.-louis-senghor">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#senegal">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#part">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#painting">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#regimented-visual-canons">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#drummers">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#hunters">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#various-trades">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#works-of-art">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#mosaics">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#art">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#cicatrisation-among-the-nuba-people">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#body-art">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-civilized-nature-of-the-society">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-target-audience">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-condition-of-the-artifact">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-record-of-its-use-in-african-society">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#uniqueness">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#factors">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#cultural">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#ethnic-purity">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#contrasting-topics">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#rolling-stone-writer-mark-kemp's-dixie-lullaby-a-story-of-music">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#randy-poe's-skydog---the-duane-allman-story">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#gene-odom's-lynyrd-skynyrd:-remembering-the-free-birds-of-southern-rock">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#chronicled-southern-rock's-rich-history">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-black-crowes">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#southern-rock-allstars">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#blackberry-smoke">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-derek-trucks-band">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#gator-country">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#dixie-witch">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#gov't-mule">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#new-groups">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#maylene">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-sons-of-disaster">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#skynyrd">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#daniels">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#garage-rock">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#alt-country">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#blues-rock">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#southern-rock-with-rawer-genres">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#my-morning-jacket">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#state-line-mob">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#kings-of-leon">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#bottle-rockets">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#band-of-horses">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#zach-williams-&amp;-the-reformation">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#drive-by-truckers">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-steepwater-band">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#hester">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#alternative-rock-groups">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#saliva">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#3-doors">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#nickelback">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#shinedown">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#saving-abel">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#pre)thing">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#post-grunge-bands">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#eyehategod">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#soilent-green">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#acid-bath">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#corrosion-of-conformity">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#several-bands-from-the-southern-united-states">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#black-crowes">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#georgia's-r.e.m">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-b-52's">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#florida's-sister-hazel">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#blind-melon's-mississippian-lead-guitarist">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#widespread-panic">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#some-rock-groups-from-the-south">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#jackyl">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#hard-rock-groups-with-southern-rock-touches">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#better-than-ezra">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#dash-rip-rock">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#drivin-n-cryin">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#cowboy-mouth">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#kentucky-headhunters">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#third-day">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#bands">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#southern-rock's-peak-the-allman-brothers">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#capricorn-artists">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#confederate-railroad">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#blackfoot">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#black-oak-arkansas">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#zz-top">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#point-blank">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#molly-hatchet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#outlaws">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#ozark-mountain-daredevils">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#38-special">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#groups">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#canned-heat">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#creedence-clearwater-revival">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#traditionalists">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#london">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#los-angeles">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#liverpool">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#new-york-city">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#large-cities">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#elvis-presley">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#buddy-holly">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#bo-diddley">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#little-richard">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#jerry-lee-lewis">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#rock-n-roll">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#root">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#gray-squirrels">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#a-variety-of-habitats-for-many-creatures"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#white-footed-mice">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#a-variety-of-habitats-for-many-creatures"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#blue-jays">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#a-variety-of-habitats-for-many-creatures"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#white-tailed-deer">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#a-variety-of-habitats-for-many-creatures"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#a-variety-of-habitats-for-many-creatures">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#maple">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#trees"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-mix-of-oak">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#trees"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#birch">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#trees"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#fuchsias">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#greenhouse-plants"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#tomatoes">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#greenhouse-plants"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#greenhouse-plants">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#tender-perennials">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#plants"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#tropicals">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#plants"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#oak">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#trees"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#trees">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#old-dune-ridges">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#dunes"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#dunes">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#scheffleras">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#plants"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#ornamental-figs">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#plants"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#rubber-trees">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#plants"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#flowering-cherry">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#deciduous-woody-plants"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#lilac">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#deciduous-woody-plants"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#deciduous-woody-plants">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#bananas">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#subtropical-plants"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#tree-ferns">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#subtropical-plants"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#subtropical-plants">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#monkshood">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#flowers"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#flowers">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#cordylines">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#many-plants"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#phormiums">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#many-plants"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#many-plants">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-arms-trade">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-appropriate-reduction-of-excessive-military-expenditures"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#global-military-expenditures">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-appropriate-reduction-of-excessive-military-expenditures"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-appropriate-reduction-of-excessive-military-expenditures">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#fiscal-incentives">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#monetary-policies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#equitable-taxation">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#monetary-policies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#monetary-policies">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-provisions-emanating-from-the-marrakesh-agreements">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#countries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#academic-research">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#canadian-expats-in-certain-sectors-facing-significant-shortages"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#health-care">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#canadian-expats-in-certain-sectors-facing-significant-shortages"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#canadian-expats-in-certain-sectors-facing-significant-shortages">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#many-vacancies-for-senior-roles-in-countries">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#spain">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#g-20-countries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#g-20-countries">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-us">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#countries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-uk">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#countries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#russia">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-countries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#south-africa">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-countries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#brazil">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-countries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-countries">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#new-york">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#international-financial-centers"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#international-financial-centers">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#social-support">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#social-factors"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#socioeconomic-status">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#social-factors"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#social-factors">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#cholesterol-level">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#proximal-causes-of-disease"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#exercise">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#proximal-causes-of-disease"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-like">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#proximal-causes-of-disease"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#diet">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#proximal-causes-of-disease"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#proximal-causes-of-disease">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#leptospirosis">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-following-infectious-diseases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#acute-respiratory-infections">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-following-infectious-diseases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#diarrheal-diseases">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-following-infectious-diseases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#viral-hepatitis">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-following-infectious-diseases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#meningitis">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-following-infectious-diseases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#dengue-fever">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-following-infectious-diseases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#typhoid-fever">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-following-infectious-diseases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-following-infectious-diseases">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#earthquakes">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#natural-disasters"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#floods">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#natural-disasters"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#tropical-cyclones">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#natural-disasters"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#tsunamis">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#natural-disasters"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#natural-disasters">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#looking-at-infectious-diseases">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#hepatitis-c-infections">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#many-causes"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#many-causes">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#herpes-simplex-virus">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#diseases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#leishmania">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#diseases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#hepatitis-c">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#liver-infections"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#hepatitis-b">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#liver-infections"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#liver-infections">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#influenza">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#great-advances-in-the-control-of-infectious-diseases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#hepatitis">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#great-advances-in-the-control-of-infectious-diseases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#malaria">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#great-advances-in-the-control-of-infectious-diseases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#tuberculosis">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#great-advances-in-the-control-of-infectious-diseases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#hiv/aids">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#great-advances-in-the-control-of-infectious-diseases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#great-advances-in-the-control-of-infectious-diseases">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#stomach">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#cancers"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#those-affecting-the-liver">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#cancers"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#lymph-glands">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#cancers"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#cancers">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#horses">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#animals-undernourished"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#animals-undernourished">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#mountain-lions">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#many-types-of-big-cats"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#cheetahs">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#many-types-of-big-cats"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#many-types-of-big-cats">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#primates">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#some-animals"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#some-animals">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#leopards">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#animals"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#macaque-monkeys">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#animals"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#grizzly">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#animals"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#animals">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#dog">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#pet"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#talking-about-your-normal-everyday-house-cat">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#pet"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#pet">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#caution-exotic-animals-for-motorists">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#electronic-warning-signs"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#electronic-warning-signs">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#six-black-bears">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#48-of-the-56-animals"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-tigers">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#48-of-the-56-animals"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#two-grizzlies">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#48-of-the-56-animals"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#17-lions">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#48-of-the-56-animals"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#48-of-the-56-animals">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#18">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#48-of-the-wild-beasts"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#48-of-the-wild-beasts">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#tigers">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#dozens-of-exotic-animals"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#lions">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#dozens-of-exotic-animals"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#bears">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#dozens-of-exotic-animals"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#rare-bengal-tigers">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#dozens-of-exotic-animals"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#dozens-of-exotic-animals">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#congo">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#countries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#cameroon">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#countries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#democratic-republic-of-the-congo">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#countries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#cote-de-ivoire">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#countries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#chad">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#countries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#guinea">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#countries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#mozambique">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#countries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#sudan">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#countries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#uganda">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#countries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#angola">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#countries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#central-african-republic">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#countries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#leishmaniasis">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#diseases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#filariasis">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#diseases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#dengue">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#diseases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#onchocerciasis">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#diseases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#mosquitoes">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#flying-insects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#flying-insects">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#infants">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#malaria-risk-areas-in-tanzania"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#children">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#malaria-risk-areas-in-tanzania"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#malaria-risk-areas-in-tanzania">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#deaths">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#serious-heart-related-side-effects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#serious-heart-related-side-effects">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#measles">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#childhood-diseases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#childhood-diseases">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#anti-malaria-drugs">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#medications"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#vaccines">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#medications"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#medications">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#your-health">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#depending-on-factors"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#immunization-history">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#depending-on-factors"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#depending-on-factors">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#medications-for-vaccine-preventable-diseases">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#diseases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#diseases">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#zanzibar">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#tanzania"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#tanzania">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#india">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#increasing-demand-for-grain-fed-animal-products-from-the-growing-middle-classes-of-countries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#china">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#increasing-demand-for-grain-fed-animal-products-from-the-growing-middle-classes-of-countries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#increasing-demand-for-grain-fed-animal-products-from-the-growing-middle-classes-of-countries">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#dairy-cows">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#cattle"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#cattle">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#sir-albert-howard">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#proponents-of-organic-farming"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#proponents-of-organic-farming">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#corn-(maize">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-production-of-certain-commodities"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-production-of-certain-commodities">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-green-revolution">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#technologies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#technologies">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#rice">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#high-yield-varieties-of-common-staple-grains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#wheat">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#high-yield-varieties-of-common-staple-grains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#high-yield-varieties-of-common-staple-grains">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-haber-">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#technological-improvements-in-agricultural-techniques"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#technological-improvements-in-agricultural-techniques">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#agriculture">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-percent-of-the-human-population-working-in-primary-sector-activities"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-percent-of-the-human-population-working-in-primary-sector-activities">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#resins.-biofuels">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#plants"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-health-effects-of-the-antibiotics">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#chemicals"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#growth-hormones">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#chemicals"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#chemicals">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#intensive-pig-farming">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#modern-practices-in-animal-husbandry"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#modern-practices-in-animal-husbandry">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#fiber">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#products"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#products">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-cultivation-of-animals">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#life-forms-for-food"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#plants">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#life-forms-for-food"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#fungi">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#life-forms-for-food"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#life-forms-for-food">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-introduction-of-golf-courses-in-arid-areas-(such-as-the-mediterranean-coast-in-spain">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#projects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#projects">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#petrol">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#a-resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#a-resource">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#bolivia">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#countries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#iraq">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#countries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#countries">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#bechtel.-the-company">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#multinationals"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#multinationals">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#following-the-deforestation-of-much-of-northeastern-american">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#forested-parts-of-the-world"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#1800">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#forested-parts-of-the-world"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#forested-parts-of-the-world">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-cooling-period-in-the-1950">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-variations"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-variations">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#human-records">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#many-sources"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#tree-rings">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#many-sources"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#corals">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#many-sources"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#many-sources">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#bird-flu">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-transference-of-harmful-diseases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#mad-cow-disease">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-transference-of-harmful-diseases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-transference-of-harmful-diseases">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#changes-in-the-ratios-of-different-carbon-isotopes-in-atmospheric-co">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#due-other-evidence"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#due-other-evidence">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#carbon-dioxide-emissions-from-burning-fossil-fuels">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#effect-of-greenhouse-gases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#effect-of-greenhouse-gases">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#termites">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#conditions"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#conditions">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#ostriches">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#carved-animal-figures"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#dogs">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#carved-animal-figures"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#carved-animal-figures">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#a-tendency-towards-stylization-–">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#common-stylistic-characteristics"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#common-stylistic-characteristics">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#millet">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#thick-layers-of-earth-impregnated-with-sacrificial-materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#goat-blood">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#thick-layers-of-earth-impregnated-with-sacrificial-materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#chicken">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#thick-layers-of-earth-impregnated-with-sacrificial-materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#thick-layers-of-earth-impregnated-with-sacrificial-materials">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#large-conical-breasts">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#geometric-features"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#measure-between-4">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#geometric-features"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#geometric-features">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#gianni-baiocchi-in-rome">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#collectors"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#jean-pigozzi">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#collectors"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#artur-walther">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#collectors"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#collectors">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#pablo-picasso">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#totemic-artists"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#henri-matisse">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#totemic-artists"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#amedeo-modigliani">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#totemic-artists"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#totemic-artists">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#paint-on-canvas">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-continent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#charcoal-on-canvas">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-continent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-continent">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#stone">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#various-materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#wood">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#various-materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#bronze">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#various-materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#clay">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#various-materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#various-materials">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#paintings">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#many-forms"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#jewelry">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#many-forms"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#weapons">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#many-forms"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#masks">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#many-forms"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#textiles">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#many-forms"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#sculptures">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#many-forms"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#many-forms">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#haematite">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#diverse-materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#coconut-shell">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#diverse-materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#beads">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#diverse-materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#sisal">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#diverse-materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#tiger's-eye-stone">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#diverse-materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#ebony-wood">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#diverse-materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#diverse-materials">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#african-cultures">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-notion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#visual-culture-in-african-art">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-notion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-notion">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#a-movement-among-african-art-historians">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#scholars"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#scholars">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-diamonds-at-different-scales-in-the-kasai-pattern-at-right.-louis-senghor">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#part"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#senegal">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#part"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#part">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#painting">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#regimented-visual-canons"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#regimented-visual-canons">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#drummers">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#various-trades"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#hunters">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#various-trades"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#various-trades">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#works-of-art">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#art"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#mosaics">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#art"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#art">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#cicatrisation-among-the-nuba-people">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-civilized-nature-of-the-society"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#body-art">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#the-civilized-nature-of-the-society"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-civilized-nature-of-the-society">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-target-audience">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#factors"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-condition-of-the-artifact">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#factors"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-record-of-its-use-in-african-society">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#factors"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#uniqueness">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#factors"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#factors">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#cultural">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#contrasting-topics"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#ethnic-purity">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#contrasting-topics"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#contrasting-topics">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#rolling-stone-writer-mark-kemp's-dixie-lullaby-a-story-of-music">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#chronicled-southern-rock's-rich-history"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#randy-poe's-skydog---the-duane-allman-story">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#chronicled-southern-rock's-rich-history"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#gene-odom's-lynyrd-skynyrd:-remembering-the-free-birds-of-southern-rock">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#chronicled-southern-rock's-rich-history"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#chronicled-southern-rock's-rich-history">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-black-crowes">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#new-groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#southern-rock-allstars">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#new-groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#blackberry-smoke">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#new-groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-derek-trucks-band">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#new-groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#gator-country">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#new-groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#dixie-witch">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#new-groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#gov't-mule">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#new-groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#new-groups">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#maylene">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#bands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-sons-of-disaster">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#bands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#skynyrd">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#bands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#daniels">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#bands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#garage-rock">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#southern-rock-with-rawer-genres"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#alt-country">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#southern-rock-with-rawer-genres"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#blues-rock">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#southern-rock-with-rawer-genres"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#southern-rock-with-rawer-genres">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#my-morning-jacket">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#alternative-rock-groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#state-line-mob">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#alternative-rock-groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#kings-of-leon">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#alternative-rock-groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#bottle-rockets">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#alternative-rock-groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#band-of-horses">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#alternative-rock-groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#zach-williams-&amp;-the-reformation">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#alternative-rock-groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#drive-by-truckers">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#alternative-rock-groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-steepwater-band">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#alternative-rock-groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#hester">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#alternative-rock-groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#alternative-rock-groups">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#saliva">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#post-grunge-bands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#3-doors">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#post-grunge-bands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#nickelback">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#post-grunge-bands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#shinedown">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#post-grunge-bands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#saving-abel">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#post-grunge-bands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#pre)thing">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#post-grunge-bands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#post-grunge-bands">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#eyehategod">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#several-bands-from-the-southern-united-states"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#soilent-green">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#several-bands-from-the-southern-united-states"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#acid-bath">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#several-bands-from-the-southern-united-states"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#corrosion-of-conformity">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#several-bands-from-the-southern-united-states"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#several-bands-from-the-southern-united-states">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#black-crowes">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#some-rock-groups-from-the-south"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#georgia's-r.e.m">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#some-rock-groups-from-the-south"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#the-b-52's">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#some-rock-groups-from-the-south"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#florida's-sister-hazel">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#some-rock-groups-from-the-south"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#blind-melon's-mississippian-lead-guitarist">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#some-rock-groups-from-the-south"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#widespread-panic">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#some-rock-groups-from-the-south"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#some-rock-groups-from-the-south">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#jackyl">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#hard-rock-groups-with-southern-rock-touches"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#hard-rock-groups-with-southern-rock-touches">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#better-than-ezra">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#bands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#dash-rip-rock">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#bands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#drivin-n-cryin">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#bands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#cowboy-mouth">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#bands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#kentucky-headhunters">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#bands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#third-day">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#bands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#bands">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#southern-rock's-peak-the-allman-brothers">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#capricorn-artists"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#capricorn-artists">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#confederate-railroad">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#blackfoot">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#black-oak-arkansas">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#zz-top">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#point-blank">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#molly-hatchet">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#outlaws">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#ozark-mountain-daredevils">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#38-special">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#groups"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#groups">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#canned-heat">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#traditionalists"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#creedence-clearwater-revival">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#traditionalists"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#traditionalists">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#london">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#large-cities"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#los-angeles">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#large-cities"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#liverpool">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#large-cities"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#new-york-city">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#large-cities"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#large-cities">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#elvis-presley">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#rock-n-roll"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#buddy-holly">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#rock-n-roll"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#bo-diddley">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#rock-n-roll"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#little-richard">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#rock-n-roll"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#jerry-lee-lewis">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#rock-n-roll"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://gate.ac.uk/owlim#rock-n-roll">
+	<rdfs:subClassOf rdf:resource="http://gate.ac.uk/owlim#root"/>
+</rdf:Description>
+
+</rdf:RDF>
