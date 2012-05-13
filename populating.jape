@@ -19,7 +19,7 @@ Rule: Hearst
 	
 	// Getting anotation string representations
 	String hypernym = stringFor(doc, hypernymAS.iterator().next()).replaceAll("(^\\s)|((\\s|,)$)", "");
-	hypernym = hypernym.replaceAll("\\s", "-");
+	hypernym = hypernym.replaceAll("\\s", "-").toLowerCase();
 	String hyponym = stringFor(doc, hyponymAS.iterator().next());
 	Set<String> hyponyms = new HashSet<String>(Arrays.asList(hyponym.split("(\\sand\\s|\\sor\\s|\\s?,\\s?)")));
 	
@@ -40,7 +40,7 @@ Rule: Hearst
 	
 	// Creating hyponym classes.
 	for (String hyponymItem : hyponyms) {
-		hyponymItem = hyponymItem.replaceAll("\\s", "-");
+		hyponymItem = hyponymItem.replaceAll("\\s", "-").toLowerCase();
 		OURI hyponymUri = ontology.createOURI("http://gate.ac.uk/owlim#" + hyponymItem);
 		if (!ontology.containsOClass(hyponymUri)) {
 			OClass hyponymClass = ontology.addOClass(hyponymUri);
