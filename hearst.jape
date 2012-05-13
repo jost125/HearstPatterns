@@ -4,44 +4,43 @@ Options: control = appelt
 
 Macro:Noun
 (
-	({Token.category=="NNS"}|{Token.category=="NN"}|{Token.category=="JJ"}|{Token.category=="NNP"}|{Token.category=="NNPS"}|{Token.category=="VBG"})
+	(
+		{Token.category=="NNS"}|
+		{Token.category=="NN"}|
+		{Token.category=="JJ"}|
+		{Token.category=="NNP"}|
+		{Token.category=="NNPS"}|
+		{Token.category=="VBG"}|
+		{Token.category=="CD"}
+	)
+	({Token.category=="POS"})?
 )
 
 Macro:SingleNounPhrase
 (
 	(
-		({Token.category=="IN"}|(Noun))
-		{SpaceToken.kind==space}
-	)*
+			({Token.category=="DT"}|{Token.category=="PRP$"})
+			{SpaceToken.kind==space}
+	)?
 	(Noun)
 )
 
 Macro:NounPhrase
 (
+	(SingleNounPhrase)
 	(
 		(
-			{Token.category=="DT"}
 			{SpaceToken.kind==space}
+			{Token.category=="IN"}
 		)?
-		(SingleNounPhrase)
-	)
-	(
 		{SpaceToken.kind==space}
-		(
-			{Token.category=="DT"}
-			{SpaceToken.kind==space}
-		)?
 		(SingleNounPhrase)
 	)*
 )
 
 Macro:Hypernym
 (
-	({Token.category=="NNS"}|{Token.category=="NN"})
-	(
-		{SpaceToken.kind==space}
-		(NounPhrase)
-	)?
+	(NounPhrase)
 )
 
 Macro:AndOrNounPhrase
